@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Incio</title>
+    <title>Cursos</title>
 </head>
 <body>
     <header style="background-color: rgb(55, 65, 33); width: 100%; height: 90px; line-height: 90px; text-align: center;">
@@ -36,33 +36,84 @@
     <main style="width: 100%; height: calc(100vh - 210px); display: flex; justify-content: center; align-items: center;">
         <div>
             <div style="text-align: right;">
-                <label for="buscar">Buscar por nombre: </label><input type="search" name="buscar" style="height: 30px;">
+                <label for="buscar">Buscar curso: </label><input type="search" name="buscar" style="height: 30px;">
                 <br>
                 <br>
             </div>
             
             <table style="box-shadow: 2px 2px 8px grey;">
                 <tr style="background-color: rgb(200, 224, 135); border: 1px solid;">
-                    <td style="text-align: center; padding: 10px;">ID</td>
+                    <td style="text-align: center; padding: 10px;"></td>
                     <td style="text-align: center; padding: 10px;">Nombre del Curso</td>
                     <td style="text-align: center; padding: 10px;">Impartido por</td>
                     <td style="text-align: center; padding: 10px;">Creditos</td>
                     <td style="text-align: center; padding: 10px;">Estudiantes Matriculados</td>
+                    <td style="text-align: center; padding: 10px;">Estado</td>
                 </tr>
                 <tr>
-                    <td style="text-align: center; padding: 6px 10px;"></td>
+                    <td style="text-align: center; padding: 6px 10px;">
+                        <input type="checkbox" disabled>
+                    </td>
+                    <td style="padding: 0 10px;">Economia I</td>
+                    <td style="padding: 0 10px;">Beatriz Cristina Madrigal Badilla</td>
+                    <td style="text-align: center; padding: 0 10px;">3</td>
+                    <td style="text-align: center; padding: 0 10px;">13/15</td>
+                    <td style="padding: 0 10px; font-weight: bold; text-align: center;">Matriculado</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; padding: 6px 10px;">
+                        <input type="checkbox" disabled>
+                    </td>
+                    <td style="padding: 0 10px;">Sistema Computacionales</td>
+                    <td style="padding: 0 10px;">Jose Grabriel Calvo Quiros</td>
+                    <td style="text-align: center; padding: 0 10px;">3</td>
+                    <td style="text-align: center; padding: 0 10px;">20/20</td>
+                    <td style="padding: 0 10px; font-weight: bold; text-align: center;">Matriculado</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; padding: 6px 10px;">
+                        <input type="checkbox">
+                    </td>
                     <td style="padding: 0 10px;">Calculo I</td>
                     <td style="padding: 0 10px;">Jiménez González José Ignacio</td>
                     <td style="text-align: center; padding: 0 10px;">3</td>
                     <td style="text-align: center; padding: 0 10px;">25/30</td>
+                    <td style="padding: 0 10px; text-align: center;">Disponible</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; padding: 6px 10px;">
+                        <input type="checkbox">
+                    </td>
+                    <td style="padding: 0 10px;">Programación de Computadoras I</td>
+                    <td style="padding: 0 10px;">José Manrique Pérez Sancho</td>
+                    <td style="text-align: center; padding: 0 10px;">3</td>
+                    <td style="text-align: center; padding: 0 10px;">15/20</td>
+                    <td style="padding: 0 10px; text-align: center;">Disponible</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; padding: 6px 10px;">
+                        <input type="checkbox">
+                    </td>
+                    <td style="padding: 0 10px;">Contabilidad I</td>
+                    <td style="padding: 0 10px;">Angie Rojas Hernàndez</td>
+                    <td style="text-align: center; padding: 0 10px;">3</td>
+                    <td style="text-align: center; padding: 0 10px;">24/25</td>
+                    <td style="padding: 0 10px; text-align: center;">Disponible</td>
+                </tr>
+                <tr style="background-color: rgb(240, 240, 240);">
+                    <td style="text-align: center; padding: 6px 10px;">
+                        <input type="checkbox" disabled>
+                    </td>
+                    <td style="padding: 0 10px;">Matemática I</td>
+                    <td style="padding: 0 10px;">Jose Martin Urea Gomez</td>
+                    <td style="text-align: center; padding: 0 10px;">3</td>
+                    <td style="text-align: center; padding: 0 10px;">30/30</td>
+                    <td style="padding: 0 10px; text-align: center;">Lleno</td>
                 </tr>
             </table>
-            <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
-                <button style="padding: 7px; border: 1px solid; background-color: rgb(130, 132, 109); color: white;">1</button>
-                <button style="padding: 7px; border: none; background-color: white">2</button>
-                <button style="padding: 7px; border: none; background-color: white">3</button>
+            <div style="text-align: right;">
+                <button style="height: 30px; margin-top: 20px;">Matricular selecionados</button>
             </div>
-            
         </div>
     </main>
     <footer style="width: 100%; height: 50px; background-color: rgb(34, 34, 34); line-height: 50PX; text-align: center;">
