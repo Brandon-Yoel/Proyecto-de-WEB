@@ -27,9 +27,11 @@ classDiagram
     class estudiante{
         -id: int
         -nombre: string
-        -email: string
         -idcarrera: string
-        -edad: int
+        -email: string
+        -materias: int
+        -creditos: int
+        -porcentajeCarrera: int
         +registrar(): void
         +editarPerfil(): void
         +consultarCursos(): List<Curso>
